@@ -34,7 +34,7 @@ Please read the following points before using this project:-
  - Also, I didn't get that much time to work on ( UI/UX ). So, for some audiences, it may look horrible. Please forgive me in advance.
  - That's it 😉.
 
-## Enable HTML Sanitiation
+## Enable HTML Sanitization
 
 Follow below steps to sanitize html before publishing any article.
 
