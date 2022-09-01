@@ -1,0 +1,51 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    gap:calc(3.2%);
+    flex-wrap: wrap;
+    position: relative;
+}
+.new_article {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    padding: 15px;
+    font-family: var(--work);
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s;
+
+    background: rgba(255, 255, 255, 0.95);
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 2;
+
+    color: var(--black);
+}
+.new_article:hover {
+    color: #fff;
+    background: var(--black);
+}
+.blankCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 230px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 50px;
+}
+.blankCard > p {
+    font-family: var(--work);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--black);
+    text-align: center;
+}

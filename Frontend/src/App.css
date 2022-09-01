@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --work: 'Work Sans', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --blue: #2163e8;
+    --grey: #595d69;
+    --black: #1f2025;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h5,p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: var(--work);
+    font-weight: 700;
+    color: var(--black);
+    padding: 30px 50px;
+    letter-spacing: 0.7px;
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 15px 15px;
+    z-index: 1;
+}
+
+.main {
+    padding: 50px;
+}

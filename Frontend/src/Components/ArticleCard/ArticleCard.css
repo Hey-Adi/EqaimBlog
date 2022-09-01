@@ -1,0 +1,31 @@
+.article_card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: min-content;
+    margin-bottom: 55px;
+}
+.article_card_img {
+    width: 320px;
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.article_card > h3 {
+    font-family: var(--inter);
+    font-weight: 600;
+    color: var(--black);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    cursor: pointer;
+}
+.article_card > p {
+    font-family: var(--inter);
+    font-weight: 400;
+    color: var(--black);
+    font-size: 14px;
+}

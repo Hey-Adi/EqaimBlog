@@ -1,0 +1,74 @@
+.create {
+    margin-left: 200px;
+    /* height: 100vh; */
+}
+.create_side_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: fixed;
+    left: 50px;
+    z-index: 2;
+}
+.create_side_buttons > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    cursor: pointer;
+    padding: 15px;
+    font-family: var(--work);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+
+    background: rgba(255, 255, 255, 0.95);
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.create_side_buttons > button:hover {
+    color: #fff;
+    background: var(--black);
+}
+.create_main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.create_input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.create_input > label {
+    font-family: var(--work);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.create_input > input {
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    letter-spacing: 0.5px;
+}
+.create_input > input::placeholder {
+    font-style: italic;
+}
+.create_main > .create_input > .quill > .ql-toolbar.ql-snow {
+    border-radius: 10px 10px 0 0 !important;
+    border: 0.5px solid rgba(0, 0, 0, 0.3) !important;
+    border-bottom: none !important;
+}
+.create_main > .create_input > .quill > .ql-container.ql-snow {
+    border-radius: 0 0 10px 10px !important;
+    border: 0.5px solid rgba(0, 0, 0, 0.3) !important;
+    /* height: 100px; */
+    padding: 10px 0 20px 0;
+}
