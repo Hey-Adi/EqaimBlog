@@ -30,7 +30,7 @@ To run this project:-
 Please read the following points before using this project:-
 
  - This site isn't **Mobile Friendly**, so please make sure you are using a PC.
- - **Html Sanitization** isn't enabled, but you can enable it by following this [Section](#delete-a-file).
+ - **Html Sanitization** isn't enabled, but you can enable it by following this [Section](#enable-html-sanitization).
  - Also, I didn't get that much time to work on ( UI/UX ). So, for some audiences, it may look horrible. Please forgive me in advance.
  - That's it 😉.
 
