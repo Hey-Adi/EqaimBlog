@@ -6,7 +6,6 @@ const sanitize = require('sanitize-html');
 
 async function articles(req,res) {
     try {
-        console.log('aaya');
         const foundArticles = await ArticleDB.find().select('-body -_id -__v');
         return res.json({status:200,body:foundArticles});
     } catch(err) {
@@ -15,7 +14,6 @@ async function articles(req,res) {
 }
 async function article(req,res) {
     try {
-        console.log('aaya');
         const {slug} = req.params;
         const foundArticle = await ArticleDB.findOne({slug:slug}).select('-_id -__v');
         if(!foundArticle) return res.json({status:404,msg:'We couldn\t found your article!'});
