@@ -20,6 +20,7 @@ To run this project:-
  - Download **Final** folder to your machine.
  - Open your terminal / command line
  - Type: **npm i**
+ - Type: **npm i dotenv**
  - Open your favorite browser
  - In the Url bar type:- http://localhost:5000
  - Or your can follow above link too.
